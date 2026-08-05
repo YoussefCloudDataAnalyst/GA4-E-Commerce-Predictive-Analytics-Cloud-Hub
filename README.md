@@ -22,17 +22,25 @@ Page 3: AI Predictive Audience & Retargeting Hub
 Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into actionable, high-converting ad-retargeting segments.
 
 ## 🏗️ End-to-End System Architecture
-[ GA4 Raw Event Stream ]
-         │
-         ▼
-[ Google BigQuery Data Warehouse ]
-   ├── Staging Layer: 
-   ├── Transformation Views: 
-   └── Data Marts: 
-         │
-         ├──► [ LookML Semantic Layer ] ──► Enterprise Metrics Governance
-         ├──► [ BigQuery ML Propensity Classifier ] ──► AI Audience Scoring
-         └──► [ Looker Studio BI Hub ] ──► Executive Reporting
+
+```mermaid
+graph TD
+    A[GA4 Raw Event Stream] --> B[Google BigQuery Data Warehouse]
+    
+    subgraph BigQuery Data Layers
+        B --> C[Staging Layer]
+        B --> D[Transformation Views]
+        B --> E[Data Marts]
+    end
+
+    E --> F[LookML Semantic Layer]
+    E --> G[BigQuery ML Propensity Classifier]
+    E --> H[Looker Studio BI Hub]
+
+    F --> I[Enterprise Metrics Governance]
+    G --> J[AI Audience Scoring]
+    H --> K[Executive Reporting]
+```
 
 ## 🛠️ Technical Capabilities & Competencies
 Cloud Infrastructure & Storage: Google Cloud Platform (GCP), BigQuery Data Warehouse
