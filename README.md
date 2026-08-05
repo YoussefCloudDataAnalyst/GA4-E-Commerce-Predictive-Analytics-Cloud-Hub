@@ -47,7 +47,7 @@ Semantic Layer & Data Governance: Looker / LookML (.model.lkml and .view.lkml de
 Business Intelligence & Data Visualization: Looker Studio, Conversion Rate Optimization (CRO) Funnels
 
 ##  📂 Repository Layout & Deep-Dive Code Links
-
+```text
 ├── sql/                                # BigQuery SQL Scripts & Staging Views
 │   ├── 01_staging_views.sql            # Clean acquisition channel logic & UTM parsing
 │   ├── 02_mart_daily_traffic.sql       # Session-level aggregation data mart
@@ -66,7 +66,7 @@ Business Intelligence & Data Visualization: Looker Studio, Conversion Rate Optim
 │   └── GA4_E-Commerce_Analytics_Report.pdf
 │
 └── README.md                           # Master Project Documentation
-
+```
 ##  👤 Author & Freelance Consulting
 
 Youssef Jadir
