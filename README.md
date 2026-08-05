@@ -23,23 +23,18 @@ Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into act
 
 ## 🏗️ End-to-End System Architecture
 
-```mermaid
-graph TD
-    A[GA4 Raw Event Stream] --> B[Google BigQuery Data Warehouse]
-    
-    subgraph BigQuery Data Layers
-        B --> C[Staging Layer]
-        B --> D[Transformation Views]
-        B --> E[Data Marts]
-    end
-
-    E --> F[LookML Semantic Layer]
-    E --> G[BigQuery ML Propensity Classifier]
-    E --> H[Looker Studio BI Hub]
-
-    F --> I[Enterprise Metrics Governance]
-    G --> J[AI Audience Scoring]
-    H --> K[Executive Reporting]
+```text
+[ GA4 Raw Event Stream ]
+         │
+         ▼
+[ Google BigQuery Data Warehouse ]
+   ├── Staging Layer: `ga4_staging`
+   ├── Transformation Views: `vw_clean_traffic_acquisition`
+   └── Data Marts: `mart_daily_traffic_acquisition`, `mart_ecommerce_product_funnel`
+         │
+         ├──► [ LookML Semantic Layer ] ──► Enterprise Metrics Governance
+         ├──► [ BigQuery ML Propensity Classifier ] ──► AI Audience Scoring
+         └──► [ Looker Studio BI Hub ] ──► Executive Reporting
 ```
 
 ## 🛠️ Technical Capabilities & Competencies
