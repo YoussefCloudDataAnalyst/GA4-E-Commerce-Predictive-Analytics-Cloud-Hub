@@ -30,6 +30,10 @@ Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into act
 
 ![AI Predictive Retargeting Hub](pag3333.png)
 
+> 🔗 **Live & Interactive Access:**  
+> * 📊 [View Live Interactive Looker Studio Report]((https://datastudio.google.com/reporting/cd5c7bfd-a5dc-4a59-9220-e27b42c318f1))
+> * 📄 [Download PDF Executive Report (3 Pages)]()
+
 ## 🏗️ End-to-End System Architecture
 ```text
 [ GA4 Raw Event Stream ]
