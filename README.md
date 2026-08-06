@@ -10,20 +10,25 @@ This project solves those challenges by implementing a production-grade cloud da
 3. High-Yield AI Retargeting: Deploys a BigQuery ML purchase propensity classification model that isolates a 12.4% High-Intent Cohort, boosting target propensity conversion scores to 84.51% compared to the 1.61% global baseline.
 
 ## 📸 Interactive Dashboard Modules
-The project delivers a multi-page interactive analytics hub built in Looker Studio, powered by custom data staging layers in BigQuery:  
 
 Page 1: GA4 Overview & Traffic Acquisition Hub
 Tracks macro engagement KPIs and isolates core traffic channels using normalized SQL views.
-![Dashboard Screenshot](page111.png)
+
+![GA4 Overview & Acquisition](page111.png)
+
+---
 
 Page 2: E-Commerce Merchandising & Conversion Funnel
 Quantifies top-of-funnel drop-offs and tracks individual SKU conversion friction.
-![Dashboard Screenshot](page222.png)
+
+![E-Commerce Merchandising Funnel](page222.png)
+
+---
 
 Page 3: AI Predictive Audience & Retargeting Hub
 Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into actionable, high-converting ad-retargeting segments.
-![Dashboard Screenshot](pag3333.png)
-## 🏗️ End-to-End System Architecture
+
+![AI Predictive Retargeting Hub](pag3333.png)
 
 ```text
 [ GA4 Raw Event Stream ]
