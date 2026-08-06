@@ -14,13 +14,15 @@ The project delivers a multi-page interactive analytics hub built in Looker Stud
 
 Page 1: GA4 Overview & Traffic Acquisition Hub
 Tracks macro engagement KPIs and isolates core traffic channels using normalized SQL views.
+![Dashboard Screenshot](page111.png)
 
 Page 2: E-Commerce Merchandising & Conversion Funnel
 Quantifies top-of-funnel drop-offs and tracks individual SKU conversion friction.
+![Dashboard Screenshot](page222.png)
 
 Page 3: AI Predictive Audience & Retargeting Hub
 Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into actionable, high-converting ad-retargeting segments.
-
+![Dashboard Screenshot](pag3333.png)
 ## 🏗️ End-to-End System Architecture
 
 ```text
