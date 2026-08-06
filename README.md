@@ -14,7 +14,7 @@ This project solves those challenges by implementing a production-grade cloud da
 Page 1: GA4 Overview & Traffic Acquisition Hub
 Tracks macro engagement KPIs and isolates core traffic channels using normalized SQL views.
 
-![GA4 Overview & Acquisition](page 111.png)
+![GA4 Overview & Acquisition](page111.png)
 
 ---
 
@@ -28,7 +28,7 @@ Quantifies top-of-funnel drop-offs and tracks individual SKU conversion friction
 Page 3: AI Predictive Audience & Retargeting Hub
 Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into actionable, high-converting ad-retargeting segments.
 
-![AI Predictive Retargeting Hub](pag 3333.png)
+![AI Predictive Retargeting Hub](pag3333.png)
 
 ## 🏗️ End-to-End System Architecture
 ```text
