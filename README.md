@@ -30,6 +30,7 @@ Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into act
 
 ![AI Predictive Retargeting Hub](pag 3333.png)
 
+## 🏗️ End-to-End System Architecture
 ```text
 [ GA4 Raw Event Stream ]
          │
