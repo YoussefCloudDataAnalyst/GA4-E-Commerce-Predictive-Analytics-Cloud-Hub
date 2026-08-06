@@ -14,24 +14,24 @@ This project solves those challenges by implementing a production-grade cloud da
 Page 1: GA4 Overview & Traffic Acquisition Hub
 Tracks macro engagement KPIs and isolates core traffic channels using normalized SQL views.
 
-![GA4 Overview & Acquisition](page1.png)
+![GA4 Overview & Acquisition](dashbords/page1.png)
 
 ---
 
 Page 2: E-Commerce Merchandising & Conversion Funnel
 Quantifies top-of-funnel drop-offs and tracks individual SKU conversion friction.
 
-![E-Commerce Merchandising Funnel](page2.png)
+![E-Commerce Merchandising Funnel](dashbords/page2.png)
 
 ---
 
 Page 3: AI Predictive Audience & Retargeting Hub
 Operationalizes BigQuery ML scoring outputs to group 94.7K scored users into actionable, high-converting ad-retargeting segments.
 
-![AI Predictive Retargeting Hub](page3.png)
+![AI Predictive Retargeting Hub](dashbords/page3.png)
 
 > 🔗 **Live & Interactive Access:**  
-> * 📊 [View Live Interactive Looker Studio Report]((https://datastudio.google.com/reporting/cd5c7bfd-a5dc-4a59-9220-e27b42c318f1))
+> *  📊 [View Live Interactive Looker Studio Report](https://datastudio.google.com/reporting/cd5c7bfd-a5dc-4a59-9220-e27b42c318f1)
 > * 📄 [Download PDF Executive Report (3 Pages)]()
 
 ## 🏗️ End-to-End System Architecture
